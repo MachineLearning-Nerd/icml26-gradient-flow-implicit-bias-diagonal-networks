@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "openreview_id": "IJph1t3Egr",
+  "phase": "claim_1_source_cpu_feasibility_audit_complete_inconclusive",
+  "next_action": "implement_source_faithful_diagonal_gradient_flow_toy",
+  "active_run_ids": [],
+  "completed_milestones": [
+    "live_duplicate_gate",
+    "live_contract_saved",
+    "source_archive_and_pdf_pinned",
+    "claim_1_source_cpu_feasibility_audit"
+  ],
+  "claim_attempt_counts": {
+    "1": 0
+  },
+  "publication_allowed": false,
+  "compute_policy": "local CPU/local GTX 1050 only; no HF cpu-upgrade, Jobs, paid, or remote compute",
+  "claim_1_outcome": {
+    "verdict": "inconclusive",
+    "scope": "Primary source recovered and a diagonal linear gradient-flow toy is CPU feasible; no theorem/benchmark claim executed.",
+    "evidence": [
+      "evidence/source/SHA256SUMS",
+      "contract/live_claims.json"
+    ]
+  }
+}

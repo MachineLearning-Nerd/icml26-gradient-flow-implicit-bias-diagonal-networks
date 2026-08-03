@@ -1,0 +1,21 @@
+{
+  "orid": "IJph1t3Egr",
+  "submission_number": 14474,
+  "title": "Gradient Flow Dynamics and Implicit Bias of Diagonal Linear Networks under Infinitesimal Initialization",
+  "area": "Deep Learning",
+  "subarea": "Theory",
+  "openreview": "https://openreview.net/forum?id=IJph1t3Egr",
+  "arxiv": "",
+  "claims": [
+    {
+      "text": "The gradient flow algorithm converges to the solution of a modified \u21131 norm minimization problem",
+      "status": "unverified"
+    },
+    {
+      "text": "The implicit bias of diagonal linear networks under infinitesimal initialization corresponds to modified \u21131 norm",
+      "status": "unverified"
+    }
+  ],
+  "claim_count": 2,
+  "max_points": 4
+}
