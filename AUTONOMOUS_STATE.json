@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "openreview_id": "IJph1t3Egr",
-  "phase": "claim_1_source_cpu_feasibility_audit_complete_inconclusive",
-  "next_action": "implement_source_faithful_diagonal_gradient_flow_toy",
+  "phase": "claim_1_source_recovery_mismatch_inconclusive",
+  "next_action": "recover_verified_primary_source_before_any_claim_1_method_execution; do_not_fabricate_clean_room_toy",
   "active_run_ids": [],
   "completed_milestones": [
     "live_duplicate_gate",
@@ -11,16 +11,25 @@
     "claim_1_source_cpu_feasibility_audit"
   ],
   "claim_attempt_counts": {
-    "1": 0
+    "1": 1
   },
   "publication_allowed": false,
   "compute_policy": "local CPU/local GTX 1050 only; no HF cpu-upgrade, Jobs, paid, or remote compute",
   "claim_1_outcome": {
     "verdict": "inconclusive",
-    "scope": "Primary source recovered and a diagonal linear gradient-flow toy is CPU feasible; no theorem/benchmark claim executed.",
+    "scope": "No source-faithful Claim-1 method or metric can be executed because the pinned arXiv artifacts are unrelated and OpenReview recovery is challenge-blocked. No toy was created to avoid fabricating a method.",
     "evidence": [
-      "evidence/source/SHA256SUMS",
-      "contract/live_claims.json"
+      "outputs/claim1_source_recovery/RECOVERY.md",
+      "outputs/claim1_source_recovery/SHA256SUMS",
+      "evidence/source/SHA256SUMS"
     ]
-  }
+  },
+  "last_checkpoint": "2026-08-03T14:13:52Z",
+  "failed_attempts": [
+    {
+      "phase": "claim_1_source_recovery",
+      "outcome": "recoverable",
+      "reason": "Existing arXiv 2602.11401 pin is unrelated; OpenReview PDF/API returned 403 ChallengeRequiredError."
+    }
+  ]
 }

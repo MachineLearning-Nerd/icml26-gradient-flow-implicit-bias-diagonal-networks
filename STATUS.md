@@ -7,3 +7,5 @@
 - Current phase: Claim 1 source/CPU feasibility audit complete; **inconclusive**.
 - Compute: local CPU/local GTX 1050 only.
 - Next: source-faithful diagonal gradient-flow toy.
+
+- 2026-08-03 Claim 1 source-recovery checkpoint: existing arXiv pin 2602.11401 is unrelated to this contracted paper; direct OpenReview PDF/API recovery returned ChallengeRequiredError 403. No source-faithful method/metric was recovered, so no fabricated clean-room toy was created. Claim 1 remains **inconclusive**. Evidence: `outputs/claim1_source_recovery/RECOVERY.md`.
