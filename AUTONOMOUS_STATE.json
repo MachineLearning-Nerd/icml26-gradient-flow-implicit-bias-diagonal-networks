@@ -1,27 +1,33 @@
 {
   "schema_version": 1,
   "openreview_id": "IJph1t3Egr",
-  "phase": "claim_1_source_recovery_mismatch_inconclusive",
-  "next_action": "recover_verified_primary_source_before_any_claim_1_method_execution; do_not_fabricate_clean_room_toy",
+  "github_repository": "https://github.com/MachineLearning-Nerd/icml26-gradient-flow-implicit-bias-diagonal-networks",
+  "phase": "claim_1_algorithm1_toy_complete",
+  "next_action": "independent_review_claim_1_toy_against_paper_appendix_then_assess_gradient_flow_feasibility",
   "active_run_ids": [],
   "completed_milestones": [
     "live_duplicate_gate",
     "live_contract_saved",
     "source_archive_and_pdf_pinned",
-    "claim_1_source_cpu_feasibility_audit"
+    "claim_1_source_cpu_feasibility_audit",
+    "verified_primary_source_recovered",
+    "claim_1_algorithm1_toy"
   ],
   "claim_attempt_counts": {
-    "1": 1
+    "1": 2,
+    "2": 0
   },
   "publication_allowed": false,
   "compute_policy": "local CPU/local GTX 1050 only; no HF cpu-upgrade, Jobs, paid, or remote compute",
   "claim_1_outcome": {
-    "verdict": "inconclusive",
-    "scope": "No source-faithful Claim-1 method or metric can be executed because the pinned arXiv artifacts are unrelated and OpenReview recovery is challenge-blocked. No toy was created to avoid fabricating a method.",
+    "verdict": "toy",
+    "scope": "The verified appendix fixture was executed with exact rational arithmetic. The audit validates Algorithm 1 feature selection and sign-constrained least squares, but not continuous-time gradient flow, the infinitesimal limit, or the paper's theorem.",
     "evidence": [
       "outputs/claim1_source_recovery/RECOVERY.md",
       "outputs/claim1_source_recovery/SHA256SUMS",
-      "evidence/source/SHA256SUMS"
+      "evidence/source/SHA256SUMS",
+      "outputs/claim1_algorithm1_toy/trace.json",
+      "outputs/claim1_algorithm1_toy/SHA256SUMS"
     ]
   },
   "last_checkpoint": "2026-08-03T14:13:52Z",

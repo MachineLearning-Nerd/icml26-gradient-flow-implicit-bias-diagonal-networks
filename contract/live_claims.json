@@ -5,7 +5,7 @@
   "area": "Deep Learning",
   "subarea": "Theory",
   "openreview": "https://openreview.net/forum?id=IJph1t3Egr",
-  "arxiv": "",
+  "arxiv": "2607.12332",
   "claims": [
     {
       "text": "The gradient flow algorithm converges to the solution of a modified \u21131 norm minimization problem",
