@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "repository": {
+    "name": "icml26-gradient-flow-implicit-bias-diagonal-networks",
+    "url": "https://github.com/MachineLearning-Nerd/icml26-gradient-flow-implicit-bias-diagonal-networks",
+    "former_name": "icml26-repro-IJph1t3Egr-gradient-flow-implicit-bias-diagonal-linear-networks"
+  },
+  "paper": {
+    "title": "Gradient Flow Dynamics and Implicit Bias of Diagonal Linear Networks under Infinitesimal Initialization",
+    "authors": [
+      "Jiajie Zhao",
+      "Jianxing Wang",
+      "Junjie Yang",
+      "Zhiwei Bai",
+      "Yaoyu Zhang"
+    ],
+    "arxiv": "2607.12332",
+    "openreview": "IJph1t3Egr"
+  },
+  "overall_verdict": "INCONCLUSIVE_SCOPED_TO_SOURCE_AND_BOUNDED_TOY",
+  "publication_allowed": false,
+  "claims": [
+    {
+      "id": "C1",
+      "contract_text": "The gradient flow algorithm converges to the solution of a modified ℓ1 norm minimization problem.",
+      "status": "TOY_SOURCE_ALGORITHM1",
+      "evidence": [
+        "CLAIM_EVIDENCE.md",
+        "src/claim1_algorithm1_toy.py",
+        "outputs/claim1_algorithm1_toy/trace.json",
+        "outputs/claim1_algorithm1_toy/SHA256SUMS"
+      ],
+      "boundary": "Finite exact-rational Algorithm 1 fixture only; continuous-time gradient flow, infinitesimal limit, and theorem assumptions are unverified."
+    },
+    {
+      "id": "C2",
+      "contract_text": "The implicit bias of diagonal linear networks under infinitesimal initialization corresponds to modified ℓ1 norm.",
+      "status": "UNVERIFIED",
+      "evidence": [
+        "CLAIM_EVIDENCE.md",
+        "SOURCE_AUDIT.md",
+        "evidence/source/arxiv.pdf",
+        "evidence/source/arxiv_source.tar.gz"
+      ],
+      "boundary": "The source theorem and corollary are documented, but no independent proof audit or parameterized continuous-time gradient-flow run is present."
+    }
+  ]
+}

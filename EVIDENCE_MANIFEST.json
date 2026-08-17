@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/MachineLearning-Nerd/icml26-gradient-flow-implicit-bias-diagonal-networks",
+  "scope": "All tracked files except AUTONOMOUS_STATE.json and EVIDENCE_MANIFEST.json",
+  "entries": [
+    {
+      "path": ".gitignore",
+      "bytes": 44,
+      "sha256": "2f4f55d4d130d7116fe0b2dd9a11d94b8403a54165e3743c3a81465239485806"
+    },
+    {
+      "path": "AUTHOR_THANK_YOU.md",
+      "bytes": 599,
+      "sha256": "c2c7e78fb1b36f8898d3ab4e6e258797a1f02e07605c4bdbcd62709fa9beb8ce"
+    },
+    {
+      "path": "BRANCH_AUDIT.md",
+      "bytes": 1072,
+      "sha256": "5a43e541b23f845b4bfc2245c5e6348f3a44d213244bc0464cd279607829288d"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 1356,
+      "sha256": "e56157d9fe2b049ba2d6a6630aafe54912a5c14384bc86d658156bddfa151b38"
+    },
+    {
+      "path": "CLAIM_EVIDENCE.md",
+      "bytes": 4306,
+      "sha256": "4487a41435fbd595b75c8f8c87964e7f21be36450d346e1e08a1321aee034726"
+    },
+    {
+      "path": "ENVIRONMENT.md",
+      "bytes": 983,
+      "sha256": "c990a3acc824251cfbca9dfe16bbbc58a731697dcd1ac8f06a4df08b73a1c726"
+    },
+    {
+      "path": "README.md",
+      "bytes": 10234,
+      "sha256": "e1236ed8e69663717f67003b4863e8f5fc6466390e2e9b779c1816d9363042a6"
+    },
+    {
+      "path": "REPORT.md",
+      "bytes": 2091,
+      "sha256": "03adf545667a00948ac55e281a8e19437b1092e27951705a2fd43bef07c8c02f"
+    },
+    {
+      "path": "SOURCE_AUDIT.md",
+      "bytes": 3288,
+      "sha256": "4f95adf608a10a05421e16d49a8617c5ecaddb29a3db99e4eb864b065840b08f"
+    },
+    {
+      "path": "STATUS.md",
+      "bytes": 1858,
+      "sha256": "a1ef8f252b97437cbe302551787282e24bf60346dc62bc676a4e632b6865b8e3"
+    },
+    {
+      "path": "branch-audit.md",
+      "bytes": 178,
+      "sha256": "e43e0cb9f33bf0c1732052ab6b5a697d8d202436be273ba522ad3fd45f662da4"
+    },
+    {
+      "path": "claims.json",
+      "bytes": 1860,
+      "sha256": "b8098f7aa5c6e7a542d3d1c16f53cbff312c62a822b9316ac5d5cd0e65adcc91"
+    },
+    {
+      "path": "contract/live_claims.json",
+      "bytes": 707,
+      "sha256": "555aa681d6ae9b68d80118b098ea6e87544dc2473ec6a94d58d08c3d2e379b96"
+    },
+    {
+      "path": "evidence/source/SHA256SUMS",
+      "bytes": 425,
+      "sha256": "e8effe379b7f8a2241a04c6791d90ef75c272cd322bf047f67faabf58251c832"
+    },
+    {
+      "path": "evidence/source/arxiv.pdf",
+      "bytes": 1508932,
+      "sha256": "21ac991a61fd54d2e480c3a127e458918d48319bd27516c5bf1899f987e14485"
+    },
+    {
+      "path": "evidence/source/arxiv_source.tar.gz",
+      "bytes": 869081,
+      "sha256": "9d2d7244fbca828a3ed7e178b7514ce715a3de21c99a2c8264374aab4adcc18e"
+    },
+    {
+      "path": "evidence/source/legacy-2602.11401-unrelated.pdf",
+      "bytes": 1480071,
+      "sha256": "fa28a00bdbc067db4057c1736da0b85a55bf2be32f39bc60636aadb7d1894451"
+    },
+    {
+      "path": "evidence/source/legacy-2602.11401-unrelated.tar.gz",
+      "bytes": 971308,
+      "sha256": "1ee128819a95d585ba3e16700f53561c7f8ba286185bee5080a326066f3c4876"
+    },
+    {
+      "path": "outputs/claim1_algorithm1_toy/README.md",
+      "bytes": 784,
+      "sha256": "5c91595e1a5de63e7d2d31b87d76758fd3b7d2291996e72a22b818d79c0444a4"
+    },
+    {
+      "path": "outputs/claim1_algorithm1_toy/SHA256SUMS",
+      "bytes": 107,
+      "sha256": "c554e47aad65ca8b50529c1f0a5537520fd29178fd3ca8b955ae9afcf51d14ac"
+    },
+    {
+      "path": "outputs/claim1_algorithm1_toy/trace.json",
+      "bytes": 6009,
+      "sha256": "a8b11ef2f38180b322e76addb949bf8da39d01df21de6bd87cb29e508af28cd4"
+    },
+    {
+      "path": "outputs/claim1_source_recovery/RECOVERY.md",
+      "bytes": 1578,
+      "sha256": "8780782f5b2264a4bc2c1bc6b372c49b9f31d3e710c12d9ab66c818ad82ec6b7"
+    },
+    {
+      "path": "outputs/claim1_source_recovery/SHA256SUMS",
+      "bytes": 109,
+      "sha256": "1984539f9328f40c1c9f5e656a953be4e0782deebc304fc3a8a6975db9f9acec"
+    },
+    {
+      "path": "src/claim1_algorithm1_toy.py",
+      "bytes": 7307,
+      "sha256": "99fe1fdef6181f6f4ca6a41cc12e9a551812e539d98b655cd83e4363b3b0b8df"
+    },
+    {
+      "path": "src/claim1_audit.py",
+      "bytes": 299,
+      "sha256": "7c3b553435f4b31e6d7c001e17e5ca68e283fe91bcedaacd9d5af8e3b66f69ca"
+    },
+    {
+      "path": "tests/test_contract.py",
+      "bytes": 177,
+      "sha256": "8316f4524c94f4a024498f4ba2ad80da27f215975d7d7dfab1646dd49157cfc9"
+    },
+    {
+      "path": "tests/test_source_recovery.py",
+      "bytes": 364,
+      "sha256": "15e3ecdfa08f370a327fe615ee2dbf3145bb72e51fcc3c09110058f2e741dfe0"
+    },
+    {
+      "path": "verify_final.py",
+      "bytes": 7802,
+      "sha256": "232c4be93587f10a0ab7689c415793c4183573f4ef7671064ef98ba51699ed0c"
+    }
+  ]
+}

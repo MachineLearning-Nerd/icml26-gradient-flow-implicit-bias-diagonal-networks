@@ -1,8 +1,10 @@
 # Gradient Flow Implicit Bias: Source-Pinned ICML 2026 Reproduction Audit
 
+Repository identity: MachineLearning-Nerd/icml26-gradient-flow-implicit-bias-diagonal-networks. The former repository name was icml26-repro-IJph1t3Egr-gradient-flow-implicit-bias-diagonal-linear-networks.
+
 This repository is a claim-by-claim audit of **“Gradient Flow Dynamics and Implicit Bias of Diagonal Linear Networks under Infinitesimal Initialization.”** It pins the verified paper source, records the paper’s claim-production path, executes the paper’s four-feature Algorithm 1 appendix fixture with exact rational arithmetic, and separates bounded local evidence from the paper’s unverified continuous-time theorem claims.
 
-> **Current status:** the primary-source mismatch is resolved. Claim 1 has a **bounded Algorithm 1 toy audit**: it selects features 1, 3, and 4 and reaches the paper’s final vector `(0, 0, 10/7, -10/49)` with zero residual. Continuous-time gradient flow, the infinitesimal limit, and both theorem-level claims remain **unverified locally**.
+> **Current status:** published source-pinned audit with verdict **INCONCLUSIVE_SCOPED_TO_SOURCE_AND_BOUNDED_TOY**. Claim 1 has a **bounded Algorithm 1 toy audit**: it selects features 1, 3, and 4 and reaches the paper’s final vector (0, 0, 10/7, -10/49) with zero residual. Continuous-time gradient flow, the infinitesimal limit, and both theorem-level claims remain **unverified locally**.
 
 ## Paper and resources
 
@@ -82,6 +84,10 @@ At the paper’s `p=3` appendix iteration, the printed text gives `delta_1=20`. 
 ### Toy evidence boundary
 
 The local program validates the finite recursion and the printed least-squares fixture using rational arithmetic. It does not reproduce the paper’s parameterized functions `k_i(theta_i)`, 200-decimal `mpmath` gradient descent, continuous-time gradient flow, saddle-to-saddle timing, SIM invariance, or the `s -> 0` iterated limit. The final vector is therefore evidence for the bounded Algorithm 1 fixture only.
+
+## Final verification
+
+Run python3 verify_final.py from the repository root. The verifier checks the canonical repository URL, the single main branch, MachineLearning-Nerd attribution on reachable commits, paper and source hashes, the toy trace, claim-status alignment, and the tracked evidence manifest.
 
 ## Reproduce the current local evidence
 

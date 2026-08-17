@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use this audit, please cite the original paper and this repository."
+title: "Gradient Flow Dynamics and Implicit Bias of Diagonal Linear Networks under Infinitesimal Initialization — ICML 2026 scoped audit"
+type: software
+authors:
+  - given-names: Jiajie
+    family-names: Zhao
+  - given-names: Jianxing
+    family-names: Wang
+  - given-names: Junjie
+    family-names: Yang
+  - given-names: Zhiwei
+    family-names: Bai
+  - given-names: Yaoyu
+    family-names: Zhang
+url: https://arxiv.org/abs/2607.12332
+repository-code: https://github.com/MachineLearning-Nerd/icml26-gradient-flow-implicit-bias-diagonal-networks
+keywords:
+  - implicit bias
+  - diagonal linear networks
+  - gradient flow
+  - structural invariant manifold
+  - ICML 2026
+identifiers:
+  - type: arxiv
+    value: "2607.12332"
+    description: "Canonical arXiv record for the paper"
+preferred-citation:
+  type: article
+  title: "Gradient Flow Dynamics and Implicit Bias of Diagonal Linear Networks under Infinitesimal Initialization"
+  authors:
+    - given-names: Jiajie
+      family-names: Zhao
+    - given-names: Jianxing
+      family-names: Wang
+    - given-names: Junjie
+      family-names: Yang
+    - given-names: Zhiwei
+      family-names: Bai
+    - given-names: Yaoyu
+      family-names: Zhang
+  year: 2026
+  url: https://arxiv.org/abs/2607.12332

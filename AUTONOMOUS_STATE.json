@@ -1,9 +1,11 @@
 {
   "schema_version": 1,
   "openreview_id": "IJph1t3Egr",
+  "paper_title": "Gradient Flow Dynamics and Implicit Bias of Diagonal Linear Networks under Infinitesimal Initialization",
   "github_repository": "https://github.com/MachineLearning-Nerd/icml26-gradient-flow-implicit-bias-diagonal-networks",
-  "phase": "claim_1_algorithm1_toy_complete",
-  "next_action": "independent_review_claim_1_toy_against_paper_appendix_then_assess_gradient_flow_feasibility",
+  "former_github_repository": "https://github.com/MachineLearning-Nerd/icml26-repro-IJph1t3Egr-gradient-flow-implicit-bias-diagonal-linear-networks",
+  "phase": "published_and_verified",
+  "next_action": "select_next_icml_repository",
   "active_run_ids": [],
   "completed_milestones": [
     "live_duplicate_gate",
@@ -11,16 +13,29 @@
     "source_archive_and_pdf_pinned",
     "claim_1_source_cpu_feasibility_audit",
     "verified_primary_source_recovered",
-    "claim_1_algorithm1_toy"
+    "claim_1_algorithm1_toy",
+    "repository_and_branch_normalization",
+    "standardized_dossier_published",
+    "dossier_manifest_and_final_verifier",
+    "fresh_clone_verification"
   ],
   "claim_attempt_counts": {
     "1": 2,
     "2": 0
   },
+  "claim_statuses": {
+    "C1": "TOY_SOURCE_ALGORITHM1",
+    "C2": "UNVERIFIED"
+  },
+  "overall_verdict": "INCONCLUSIVE_SCOPED_TO_SOURCE_AND_BOUNDED_TOY",
   "publication_allowed": false,
   "compute_policy": "local CPU/local GTX 1050 only; no HF cpu-upgrade, Jobs, paid, or remote compute",
+  "branch_set": [
+    "main"
+  ],
+  "last_known_git_commit": "6a166af1c7d6c174f5d3b58d7817d38bcdd31bab",
   "claim_1_outcome": {
-    "verdict": "toy",
+    "verdict": "TOY_SOURCE_ALGORITHM1",
     "scope": "The verified appendix fixture was executed with exact rational arithmetic. The audit validates Algorithm 1 feature selection and sign-constrained least squares, but not continuous-time gradient flow, the infinitesimal limit, or the paper's theorem.",
     "evidence": [
       "outputs/claim1_source_recovery/RECOVERY.md",
@@ -30,7 +45,16 @@
       "outputs/claim1_algorithm1_toy/SHA256SUMS"
     ]
   },
-  "last_checkpoint": "2026-08-03T14:13:52Z",
+  "claim_2_outcome": {
+    "verdict": "UNVERIFIED",
+    "scope": "The modified-l1 objective and the dynamics corollary are source-pinned, but no independent proof audit or parameterized continuous-time gradient-flow run is present.",
+    "evidence": [
+      "CLAIM_EVIDENCE.md",
+      "evidence/source/arxiv.pdf",
+      "evidence/source/arxiv_source.tar.gz"
+    ]
+  },
+  "last_checkpoint": "2026-08-17T00:00:00Z",
   "failed_attempts": [
     {
       "phase": "claim_1_source_recovery",
